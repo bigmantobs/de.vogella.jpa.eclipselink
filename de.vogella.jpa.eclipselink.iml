@@ -4,8 +4,30 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/libraries" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/derby.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/eclipselink.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jakarta.annotation-api.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jakarta.persistence-api.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/org.eclipse.persistence.jpa.modelgen.processor.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/org.eclipse.persistence.jpars.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/org.eclipse.persistence.jpars-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/org.eclipse.persistence.jpa.modelgen.processor-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/org.eclipse.persistence.jpars-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -1,7 +1,5 @@
 package de.vogella.jpa.eclipselink.model;
-import de.vogella.jpa.eclipselink.*;
 
-import javax.persistence;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

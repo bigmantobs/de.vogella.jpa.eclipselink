@@ -1,14 +1,8 @@
 package de.vogella.jpa.eclipselink.model;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
-import de.vogella.jpa.eclipselink.*;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
 
 @Entity
 public class Family {
@@ -18,7 +12,7 @@ public class Family {
     private String description;
 
     @OneToMany(mappedBy = "family")
-    private final List<Person> members = new ArrayList<Person>();
+    private final List<Person> members = new ArrayList<>();
 
     public int getId() {
         return id;
@@ -39,5 +33,4 @@ public class Family {
     public List<Person> getMembers() {
         return members;
     }
-
 }

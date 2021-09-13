@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/de.vogella.jpa.eclipselink.iml" filepath="$PROJECT_DIR$/de.vogella.jpa.eclipselink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_JPA.iml" filepath="$PROJECT_DIR$/Lab_JPA.iml" />
     </modules>
   </component>
 </project>
